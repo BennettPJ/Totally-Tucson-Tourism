@@ -1,6 +1,6 @@
 async function getWeather() {
-    const latitude = 32.2540;     // Latitude of Tucson AZ
-    const longitude = 110.9742;   // longitude of Tucson AZ
+    const latitude = 32.2319;     // Latitude of Tucson AZ
+    const longitude = 110.9535;   // longitude of Tucson AZ
   
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m`;
   

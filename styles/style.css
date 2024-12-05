@@ -3,12 +3,14 @@
     background-color: #333;
     padding: 1em;
     justify-content: center;
+    font-family: Arial, sans-serif;
   }
   .navbar a {
     color: white;
     padding: 0.75em 1.5em;
     text-decoration: none;
     font-size: 1em;
+    font-family: Arial, sans-serif;
   }
   .navbar a:hover {
     background-color: #555;
@@ -18,4 +20,21 @@
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 2em;
+  }
+
+  p{
+    font-size: 12pt;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100px;
+    border-color: #333;
+    font-family: Arial, sans-serif;
   }

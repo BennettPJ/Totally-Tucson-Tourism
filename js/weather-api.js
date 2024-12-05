@@ -1,6 +1,6 @@
 async function getWeather() {
     const latitude = 32.2319;     // Latitude of Tucson AZ
-    const longitude = 110.9535;   // longitude of Tucson AZ
+    const longitude = -110.9535;   // longitude of Tucson AZ
   
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m`;
   
@@ -12,7 +12,7 @@ async function getWeather() {
   
       // Extract needed data
       const temperatureCelsius = data.current_weather.temperature;
-      const temperatureFahrenheit = (temperatureCelsius * 9/5) + 32;
+      const temperatureFahrenheit = (1.0 * temperatureCelsius * 9/5) + 32;
   
       // Update HTML content
       document.getElementById('weather').innerHTML = `

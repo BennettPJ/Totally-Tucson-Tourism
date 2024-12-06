@@ -7,6 +7,48 @@
     <title>Family Friendly Activities</title>
     <link rel="stylesheet" href="styles/style.css"> 
 </head>
+<style>
+    .container {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .container img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .text {
+        font-size: 17pt;
+        line-height: 1.5;
+    }
+
+    li {
+        padding-top: 15px;
+        list-style: none;
+    }
+
+    .container.left img {
+        margin-right: 20px;
+    }
+
+    .container.right {
+        flex-direction: row-reverse;
+    }
+
+    .container.right img {
+        margin-left: 20px;
+    }
+
+    body {
+        background-color: #ddd4b7;
+        font-family: Arial, sans-serif;
+    }
+   
+</style>
 <body>
     <header>
         <div class="weather" id="weather">
@@ -22,16 +64,66 @@
             <a href="nightLife.html">Extravagant Night Life</a>
             <a href="about.html">Contact Us</a>
         </div>
-        <h1>Welcome to Family Friendly Activities</h1>
     </header>
 
     <main>
-        <h1> This site is currently under construction. Please check back later for updates.</h1>
+        <h1>Explore Tucson's Best Family-Friendly Activities</h1>
+        <p>
+            Tucson is brimming with activities perfect for families. From interactive museums to wildlife experiences, there’s something for every age group to enjoy!
+        </p>
+
+        <div class="container left">
+            <img src="./images/biosphere.jpg" alt="Biosphere 2">
+            <div class="text">
+                <li><b><a href="https://biosphere2.org/" target="_blank">Biosphere 2:</a></b> A one-of-a-kind research facility showcasing ecosystems like rainforests, deserts, and oceans under a massive dome. Perfect for families to explore science and sustainability through guided tours and interactive exhibits.</li>
+            </div>
+        </div>
+
+        <div class="container right">
+            <img src="./images/biosphere.jpg" alt="Pima Air and Space Museum">
+            <div class="text">
+                <li><b><a href="https://pimaair.org/" target="_blank">Pima Air and Space Museum:</a></b> One of the largest aerospace museums in the world, featuring over 400 aircraft and interactive exhibits.</li>
+            </div>
+        </div>
+
+        <div class="container left">
+            <img src="./images/biosphere.jpg" alt="Arizona-Sonora Desert Museum">
+            <div class="text">
+                <li><b><a href="https://www.desertmuseum.org/" target="_blank">Arizona-Sonora Desert Museum:</a></b> A mix of zoo, botanical garden, and museum, showcasing live desert animals and scenic trails.</li>
+            </div>
+        </div>
+
+        <div class="container right">
+            <img src="./images/biosphere.jpg" alt="Tucson Botanical Gardens">
+            <div class="text">
+                <li><b><a href="https://tucsonbotanical.org/" target="_blank">Tucson Botanical Gardens:</a></b> A serene oasis offering butterfly exhibits, lush gardens, and educational art installations.</li>
+            </div>
+        </div>
+
+        <div class="container left">
+            <img src="./images/biosphere.jpg" alt="Rooster Cogburn Ostrich Ranch">
+            <div class="text">
+                <li><b><a href="https://www.roostercogburn.com/" target="_blank">Rooster Cogburn Ostrich Ranch:</a></b> A hands-on animal experience where you can feed ostriches, goats, and lorikeets.</li>
+            </div>
+        </div>
+
+        <div class="container right">
+            <img src="./images/biosphere.jpg" alt="USAF Airplane Boneyard">
+            <div class="text">
+                <li><b><a href="https://www.dm.af.mil/Visit/Boneyard/" target="_blank">USAF Airplane Boneyard:</a></b> The world’s largest aircraft storage facility with guided tours and historical insights.</li>
+            </div>
+        </div>
+
+        <div class="container left">
+            <img src="./images/biosphere.jpg" alt="Reid Park Zoo">
+            <div class="text">
+                <li><b><a href="https://reidparkzoo.org/" target="_blank">Reid Park Zoo:</a></b> Features exotic animals, interactive exhibits, and a kid-friendly play area for young adventurers.</li>
+            </div>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2024 Bennett Jackson, Chris Karceski, Max Mace, Ruben Galdean</p>
     </footer>
-
 </body>
 </html>

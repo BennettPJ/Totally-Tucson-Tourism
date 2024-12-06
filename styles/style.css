@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    background-color: #333;
+    background-color: #333333;
     padding: 1em;
     justify-content: center;
     font-family: Arial, sans-serif;
@@ -37,6 +37,15 @@
     border-radius: 100px;
     border-color: #333;
     font-family: Arial, sans-serif;
+  }
+
+  footer{
+    background-color: #333333;
+    padding: 1em;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 20px;
   }
 
 
@@ -98,7 +107,7 @@
 }
 
 .team-member {
-  background: rgba(255, 255, 255, 0.711);
+  background: rgba(255, 255, 255);
   padding: 20px;
   border: 2px solid #000000;
   border-radius: 10px;
@@ -117,8 +126,11 @@
 }
 
 .all-team-members{
+  width: 50%;
   display: grid;
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }

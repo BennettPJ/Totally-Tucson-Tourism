@@ -18,8 +18,10 @@
 
   .weather {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
   }
 
   p{
@@ -49,6 +51,20 @@
     margin-top: 20px;
   }
 
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  max-height: 150px; /* Adjust as needed */
+  display: flex;
+  margin-left: 50px;
+}
 
 .feedback-form{
     display: flex;

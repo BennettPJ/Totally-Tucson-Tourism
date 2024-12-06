@@ -4,6 +4,7 @@
     padding: 1em;
     justify-content: center;
     font-family: Arial, sans-serif;
+    margin-bottom: 5px;
   }
   .navbar a {
     color: white;
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 50px;
+    margin-left: 50px;
   }
 
   p{
@@ -58,16 +59,16 @@
 
 .header-top {
   display: flex;
-  justify-content: space-between;
+  background-color: #ddd4b7;
+  justify-content: center;
   width: 100%;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .logo img {
-  max-height: 150px; /* Adjust as needed */
+  max-height: 125px; 
   display: flex;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .feedback-form{
@@ -185,9 +186,8 @@ img {
 li{
   padding-top: 25px;
 }
-body{
-  background-color:#ddd4b7;
-}
+
+
 .bros{
   max-width: 50%;
   max-height:50%;

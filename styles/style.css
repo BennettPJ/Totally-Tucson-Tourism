@@ -254,3 +254,20 @@ body{
   background-color: whitesmoke;
   font-weight: bold;
 }
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.image-slider img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.image-slider img:first-child {
+  display: block;
+}

@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function() {
         images[currentIndex].style.display = 'block';
     }
 
-    setInterval(showNextImage, 5000);
+    setInterval(showNextImage, 5000); // Change image every 5 Seconds
 });

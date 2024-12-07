@@ -7,7 +7,7 @@
     margin-bottom: 5px;
   }
   .navbar a {
-    color: whitesmoke;
+    color: white;
     padding: 0.75em 1.5em;
     text-decoration: none;
     font-size: 1em;
@@ -39,14 +39,20 @@
     text-align: center;
     font-family: Arial, sans-serif;
   }
-
+  /* img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100px;
+    border-color: #333;
+    font-family: Arial, sans-serif;
+  } */
 
   footer{
     background-color: #333333;
     padding: 1em;
     justify-content: center;
     font-family: Arial, sans-serif;
-    color: whitesmoke;
+    color: white;
     margin-top: 20px;
   }
 
@@ -73,7 +79,7 @@
 }
 
 #feedback {
-    background: whitesmoke;
+    background: white;
     padding: 20px;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -123,7 +129,7 @@
 }
 
 .team-member {
-  background: whitesmoke;
+  background: rgba(255, 255, 255);
   padding: 20px;
   border: 2px solid #000000;
   border-radius: 20px;
@@ -131,6 +137,7 @@
   width: 500px;
   box-sizing: border-box;
   text-align: center;
+  background-color: #d3d3d3;
 }
 
 .team-member h2 {
@@ -150,21 +157,43 @@
   align-items: center;
   margin: 0 auto;
 }
+.container1 img, .container2 img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .container1 {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding-bottom: 50px;
-  
+  gap: 20px;
 }
+
 .container2 {
   display: flex;
-  align-items: right;
-  justify-content: right;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
-  
+  gap: 20px;
 }
+
+.par1 {
+  font-size: 20pt;
+  line-height: 1.6;
+  margin: 0;
+  color: #333333;
+}
+
+/* img {
+  max-width: 100%;
+  max-height:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+} */
 
 .text {
   font-size: 17pt;
@@ -179,11 +208,10 @@ li{
 .bros{
   max-width: 50%;
   max-height:50%;
+
+
 }
 
-.par1{
-  font-size: 20pt;
-}
 
 .card-container{
   display: flex;
@@ -193,49 +221,14 @@ li{
   border: 2px solid #000000;
   border-radius: 50px;
   padding: 15px;
-  background-color: whitesmoke;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.card-image {
-  max-width: 100%;
-  max-height: 400px;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 20px;
-  border-radius: 50px;
+  background-color: #d3d3d3;
 }
 
 .Welcome-img{
-  display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 body{
   background-color: #ddd4b7;
-}
-
-
-.hiking-table {
-  width: 75%;
-  border-collapse: collapse;
-  margin: 20px auto;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  text-align: center;
-  border: 2px solid #000000;
-}
-
-.hiking-table th, .hiking-table td {
-  border: 1px solid #000000;
-  padding: 8px;
-  background-color: whitesmoke;
-}
-
-.hiking-table th {
-  background-color: whitesmoke;
-  font-weight: bold;
 }

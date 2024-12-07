@@ -7,7 +7,7 @@
     margin-bottom: 5px;
   }
   .navbar a {
-    color: white;
+    color: whitesmoke;
     padding: 0.75em 1.5em;
     text-decoration: none;
     font-size: 1em;
@@ -39,20 +39,14 @@
     text-align: center;
     font-family: Arial, sans-serif;
   }
-  /* img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 100px;
-    border-color: #333;
-    font-family: Arial, sans-serif;
-  } */
+
 
   footer{
     background-color: #333333;
     padding: 1em;
     justify-content: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: whitesmoke;
     margin-top: 20px;
   }
 
@@ -129,7 +123,7 @@
 }
 
 .team-member {
-  background: rgba(255, 255, 255);
+  background: whitesmoke;
   padding: 20px;
   border: 2px solid #000000;
   border-radius: 20px;
@@ -137,7 +131,6 @@
   width: 500px;
   box-sizing: border-box;
   text-align: center;
-  background-color: whitesmoke;
 }
 
 .team-member h2 {
@@ -157,6 +150,7 @@
   align-items: center;
   margin: 0 auto;
 }
+
 .container1 {
   display: flex;
   align-items: left;
@@ -172,13 +166,6 @@
   
 }
 
-/* img {
-  max-width: 100%;
-  max-height:100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-} */
-
 .text {
   font-size: 17pt;
   padding-left: 20px;
@@ -192,8 +179,6 @@ li{
 .bros{
   max-width: 50%;
   max-height:50%;
-
-
 }
 
 .par1{
@@ -247,14 +232,10 @@ body{
 .hiking-table th, .hiking-table td {
   border: 1px solid #000000;
   padding: 8px;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .hiking-table th {
-  background-color: white;
+  background-color: whitesmoke;
   font-weight: bold;
-}
-
-.hiking-table tr:nth-child(even) {
-  background-color: white;
 }

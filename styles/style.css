@@ -79,7 +79,7 @@
 }
 
 #feedback {
-    background: white;
+    background: #d3d3d3;
     padding: 20px;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -209,6 +209,17 @@ li{
   border-radius: 50px;
   padding: 15px;
   background-color: #d3d3d3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 20px;
+  border-radius: 50px;
 }
 
 .Welcome-img{
@@ -218,4 +229,30 @@ li{
 
 body{
   background-color: #ddd4b7;
+}
+
+
+.hiking-table {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.hiking-table th, .hiking-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  background-color: white;
+}
+
+.hiking-table th {
+  background-color: white;
+  font-weight: bold;
+}
+
+.hiking-table tr:nth-child(even) {
+  background-color: white;
 }

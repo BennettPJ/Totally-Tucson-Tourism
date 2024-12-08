@@ -16,8 +16,7 @@ async function getWeather() {
   
       // Update HTML content
       document.getElementById('weather').innerHTML = `
-        <p>Temperature in Tucson, AZ:<br>${temperatureFahrenheit.toFixed(1)}°F</p>
-      `;
+        <p>Temperature in Tucson, AZ:<br>${temperatureFahrenheit.toFixed(1)}°F</p>`;
     } catch (error) {
       console.error('Error:', error);
       document.getElementById('weather').innerHTML = `<p>Error fetching weather data.</p>`;

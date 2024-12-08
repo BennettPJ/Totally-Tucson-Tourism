@@ -1,13 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let currentIndex = 0;
-    const images = document.querySelectorAll('.image-slider img');
-    const totalImages = images.length;
+    const sliders = document.querySelectorAll('.image-slider');
 
-    function showNextImage() {
-        images[currentIndex].style.display = 'none';
-        currentIndex = (currentIndex + 1) % totalImages;
-        images[currentIndex].style.display = 'block';
-    }
+    sliders.forEach(slider => {
+        let currentIndex = 0;
+        const images = slider.querySelectorAll('img');
+        const totalImages = images.length;
 
-    setInterval(showNextImage, 5000); // Change image every 5 Seconds
+        function showNextImage() {
+            images[currentIndex].style.display = 'none'; //Hide the other images
+            currentIndex = (currentIndex + 1) % totalImages;
+            images[currentIndex].style.display = 'block'; //make the current image visible
+        }
+
+        setInterval(showNextImage, 5000); // Change image every 5 seconds
+    });
 });
